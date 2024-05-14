@@ -26,7 +26,7 @@ app.use(session({
 }));
 app.use(
   cors({
-    origin: "https://student-report.vercel.app",
+    origin: "https://student-report.vercel.app/",
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
   })
