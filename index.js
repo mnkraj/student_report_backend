@@ -50,6 +50,6 @@ app.use("/api/",authentication, studentsdata);
 app.use("/api/",authentication, search);
 
 app.listen(port, () => {
-  res.send("Hello")
+   res.send("Hello")
   console.log(`SERVER STARTED AT PORT ${port}`);
 });
